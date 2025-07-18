@@ -2,14 +2,15 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #171717; 
+
+  --font-text: var(--font-inter);
+  --font-title: var(--font-playfair);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +23,27 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-text), sans-serif;
 }
+
+h1, h2 {
+  font-family:  var(--font-title), serif;
+  @apply text-3xl font-bold text-purple-700 text-center
+}
+
+p {
+  @apply text-center
+}
+
+.text-link {
+  @apply hover:underline text-sky-800 font-semibold text-lg
+}
+
+.image-link {
+  @apply transform transition-transform duration-100 hover:rotate-45
+}
+
+.button {
+  @apply rounded-full border border-solid font-semibold border-transparent transition-colors px-4 py-2 bg-sky-600 text-white hover:bg-sky-500 hover:shadow mt-6
+}
+

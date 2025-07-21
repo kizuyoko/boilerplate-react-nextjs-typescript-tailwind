@@ -36,6 +36,7 @@ Deployed to Vercel, [here](https://boilerplate-react-nextjs-typescript.vercel.ap
 - **Color and typography**: Defined in `src/app/globals.css` using CSS variables (e.g. `--background`, `--font-title`, `--titleColor`).  
 Dark mode is handled under the `@media (prefers-color-scheme: dark)` section.
 - **404 page**: Customize the default in `src/app/not-found.tsx`.
+- **CI/CD**: Edit `.github/workflows/ci.yml`, and add additional steps like running tests (`npm test`) or build commands (`npm run build`) if needed. You can also change the triggering branches or events according to your workflow.
 
 ## Optional Integrations ##
 - **Testing** – [Jest](https://jestjs.io), [Testing Library (React)](https://testing-library.com/docs/react-testing-library/intro), [Cypress](https://www.cypress.io/)
@@ -43,7 +44,6 @@ Dark mode is handled under the `@media (prefers-color-scheme: dark)` section.
 - **State Management** – [Redux Toolkit](https://redux-toolkit.js.org)
 - **Documentation** – [Storybook](https://storybook.js.org)
 - **Accessibility & Audit** – [Lighthouse](https://pagespeed.web.dev) (Current score: [100](https://pagespeed.web.dev/analysis/https-boilerplate-react-nextjs-typescript-vercel-app/xcaaqtrdnv?form_factor=mobile)), [WAVE](https://wave.webaim.org)(No error found so far)
-- ** CI/CD ** - Edit `.github/workflows/ci.yml`, and add additional steps like running tests (`npm test`) or build commands (`npm run build`) if needed. You can also change the triggering branches or events according to your workflow.
 
 
 ## Getting Started

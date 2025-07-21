@@ -12,7 +12,7 @@ export default function Home() {
       <p>Feel free to copy and use it!</p>
       <Button
         href="/about"
-        ariaLabel="Try About page"
+        ariaLabel="Go to About page for site details"
       >
         About
       </Button>

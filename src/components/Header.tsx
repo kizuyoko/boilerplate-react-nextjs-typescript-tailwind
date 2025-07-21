@@ -9,7 +9,8 @@ export const Header = () => {
           <Link 
             key={item.name}
             href={item.href} 
-            className="text-link">
+            className="text-link"
+            aria-label={`Go to ${item.name} page`}>
               {item.name}
           </Link>
         ))

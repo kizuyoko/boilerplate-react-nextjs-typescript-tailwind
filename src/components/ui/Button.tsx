@@ -5,7 +5,6 @@ import Link from "next/link";
 type ButtonProps = {
   children: React.ReactNode;
   href?: string;
-  target?: string;
   onClick?: () => void;
   className?: string;
 };
@@ -13,7 +12,6 @@ type ButtonProps = {
 export const Button = ({
   children,
   href,
-  target = "_self",
   onClick,
   className = "",
 }: ButtonProps) => {

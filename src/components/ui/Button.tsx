@@ -7,6 +7,7 @@ type ButtonProps = {
   href?: string;
   onClick?: () => void;
   className?: string;
+  ariaLabel?: string;
 };
 
 export const Button = ({
@@ -14,6 +15,7 @@ export const Button = ({
   href,
   onClick,
   className = "",
+  ariaLabel,
 }: ButtonProps) => {
 
   if (href) {
@@ -21,6 +23,7 @@ export const Button = ({
       <Link 
         href={href} 
         className={`button ${className}`}
+        aria-label={ariaLabel}
       >
         {children}
       </Link>

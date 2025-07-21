@@ -7,6 +7,7 @@ export default function Home() {
       <p>This is About Page.</p>
       <Button
         href="/"
+        ariaLabel="Go back to Home page"
       >
         Home
       </Button>

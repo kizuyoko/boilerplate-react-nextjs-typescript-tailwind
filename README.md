@@ -23,6 +23,7 @@ Deployed to Vercel, [here](https://boilerplate-react-nextjs-typescript.vercel.ap
 - Dynamic site configuration with `src/app/constants/site.ts`
 - 404 page
 - Dark mode setting
+- Sitemap and robots.txt for SEO.
 
 ## Customization Guide
 

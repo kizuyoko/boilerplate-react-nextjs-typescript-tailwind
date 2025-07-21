@@ -41,7 +41,34 @@ Dark mode is handled under the `@media (prefers-color-scheme: dark)` section.
 - **Documentation** – [Storybook](https://storybook.js.org)
 - **Accessibility & Audit** – [Lighthouse](https://pagespeed.web.dev) (Current score: [100](https://pagespeed.web.dev/analysis/https-boilerplate-react-nextjs-typescript-vercel-app/xcaaqtrdnv?form_factor=mobile)), [WAVE](https://wave.webaim.org)(No error found so far)
 
-## Create Your Own From Scratch
+
+## Getting Started
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/kizuyoko/boilerplate-react-nextjs-typescript-tailwind.git
+cd boilerplate-react-nextjs-typescript-tailwind
+```
+Then, install dependencies and start the development server:
+
+```bash
+npm install
+npm run dev
+# or
+yarn
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)  in your browser to see the app running.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Otherwise, create Your Own From Scratch
 
 To build a similar setup manually, run:
 
@@ -61,25 +88,4 @@ Then I got such quiestions and I answered Yes to the first 4, No to the last 2:
 ```
 
 Once installed, follow the generated README or use this one for guidance.
-
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

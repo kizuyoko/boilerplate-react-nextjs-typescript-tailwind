@@ -8,6 +8,7 @@ export const Footer = () => {
         href="https://github.com/kizuyoko/boilerplate-react-nextjs-typescript-tailwind/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="GitHub Repository"
       >
         <Image
           aria-hidden
@@ -23,6 +24,7 @@ export const Footer = () => {
         href="https://www.linkedin.com/in/kizuyoko/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="LinkedIn Profile"
       >
         <Image
           aria-hidden

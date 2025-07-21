@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { siteConfig } from "@/app/constans/site";
+import { siteConfig } from "@/app/constants/site";
 
 export const Header = () => {
   return (

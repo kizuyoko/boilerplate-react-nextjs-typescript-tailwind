@@ -24,6 +24,8 @@ Deployed to Vercel, [here](https://boilerplate-react-nextjs-typescript.vercel.ap
 - 404 page
 - Dark mode setting
 - Sitemap and robots.txt for SEO.
+- Minimal GitHub Actions workflow that runs `npm run lint` automatically on each push and pull request to the `main` branch. 
+
 
 ## Customization Guide
 
@@ -41,6 +43,7 @@ Dark mode is handled under the `@media (prefers-color-scheme: dark)` section.
 - **State Management** – [Redux Toolkit](https://redux-toolkit.js.org)
 - **Documentation** – [Storybook](https://storybook.js.org)
 - **Accessibility & Audit** – [Lighthouse](https://pagespeed.web.dev) (Current score: [100](https://pagespeed.web.dev/analysis/https-boilerplate-react-nextjs-typescript-vercel-app/xcaaqtrdnv?form_factor=mobile)), [WAVE](https://wave.webaim.org)(No error found so far)
+- ** CI/CD ** - Edit `.github/workflows/ci.yml`, add additional steps like running tests (`npm test`) or build commands (`npm run build`) if needed. You can also change the triggering branches or events according to your workflow.
 
 
 ## Getting Started
